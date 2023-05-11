@@ -9,7 +9,7 @@ import ni.edu.uca.sistematicopersistencia.data.database.entities.EntityProducto
 
 @Database(entities = [EntityProducto::class], version =1, exportSchema = false )
 abstract class BaseDatos: RoomDatabase(){
-    abstract fun productoDao(): ProductoDao
+    abstract fun getproducto(): ProductoDao
 
     companion object{
         @Volatile
