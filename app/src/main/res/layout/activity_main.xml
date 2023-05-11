@@ -34,5 +34,19 @@
         android:layout_marginTop="16dp"
         android:text="Añadir producto" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mabel Garcia "
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ashly Castillo "
+        android:layout_marginBottom="50dp"
+
+        />
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>
